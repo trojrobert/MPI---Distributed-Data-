@@ -19,12 +19,17 @@ multiple processors.
 
 ## Installation 
 Install Anaconda, Python 3.5 [link](https://www.continuum.io/downloads)
+
 Install pip package [link](https://anaconda.org/anaconda/pip)
+
 Install Microsoft MPI [link](https://www.microsoft.com/en-us/download/details.aspx?id=54607)
+
     You need to run both files msmpisdk.msi and MSMpiSetup.exe
     Add $PATH$ in the Environment Variables, e.g. C:nProgram Files (x86)nMicrosoft SDKsnMPI
 Install mpi4py package by conda install mpi4py
+
 Run a python program by command
+
     mpiexec -n N python your file.py
  N is the number of copies in parallel.
  
